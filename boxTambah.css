@@ -1,0 +1,95 @@
+@import url('http://fonts.cdnfonts.com/css/aferd');
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'aferd', sans-serif;
+}
+  
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("bg.jpg");
+    width: 100%;
+    background-size: cover;
+}
+  
+form {
+    display: inline-block;
+    width: 410px;
+    background: #c9921d;    
+    border-radius: 15px;
+    backdrop-filter: blur(5px);
+    padding: 24px;
+}
+
+.form-container {
+    margin-top: 5px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    color: white;
+}
+  
+form .txtField {
+    margin-top: 10px;
+}
+  
+.txtField input{
+    padding: 4px 10px;
+    height: 40px;
+    border: 10px;
+    margin: 3px auto 0;
+    width: 100%;
+    background: #F2F4FA;
+    border-radius: 6px;
+}
+  
+.txtField label {
+    font-size: 14px;
+}
+  
+.btn-close {
+    cursor: pointer;
+    display: inline;
+    background-color: white;
+    border: 2px solid #52FFA8;
+    border-radius: 6px;
+    width: 150px  ;
+    height: 35px;
+    margin-left: 30px;
+    font-size: medium;
+    margin-top: 10px;
+}
+  
+.btn-close a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-simpan {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px;
+    width: 150px;
+    height: 35px;
+    background-color: #52FFA8;
+    border-radius: 6px;
+    color: #323a49;
+    border: none;
+    color: black;
+    margin-left: 30px;
+    font-size: medium;
+}
+  
+.btn-group {
+    margin-left: 50%;
+}
